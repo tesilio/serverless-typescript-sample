@@ -35,6 +35,6 @@ module.exports = async ({ options, resolveVariable }) => {
   } else if (stage === 'production') {
     return {};
   } else {
-    throw new Error('잘못된 stage 입니다.');
+    throw new Error('Wrong stage!');
   }
 }
