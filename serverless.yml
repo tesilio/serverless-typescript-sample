@@ -1,0 +1,25 @@
+# 서비스명
+service: serverless-typescript-sample
+
+# 플러그인
+plugins:
+  - serverless-offline
+  - serverless-plugin-typescript
+
+custom: ${file(./config.js)}
+
+# 제공자
+provider: ${self:custom.provider}
+
+# 패키지 https://www.serverless.com/framework/docs/providers/aws/guide/packaging#patterns
+package:
+  individually: true
+
+# 함수들
+functions:
+  hello:
+    handler: src/handler.hello
+    events:
+      - httpApi:
+          path: /
+          method: get
