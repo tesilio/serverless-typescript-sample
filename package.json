@@ -13,9 +13,11 @@
     "@aws-sdk/types": "^3.357.0",
     "@types/chai": "^4.3.5",
     "@types/faker": "^6.6.9",
+    "@types/lodash": "^4.14.195",
     "@types/mocha": "^10.0.1",
     "@types/node": "18.16.1",
     "@types/sinon": "^10.0.15",
+    "@types/validator": "^13.7.17",
     "@typescript-eslint/eslint-plugin": "^5.61.0",
     "@typescript-eslint/parser": "^5.61.0",
     "chai": "^4.3.7",
@@ -34,6 +36,9 @@
     "typescript": "^5.1.6"
   },
   "dependencies": {
+    "lodash": "^4.17.21",
+    "reflect-metadata": "^0.1.13",
+    "sequelize": "^6.32.1",
     "sequelize-typescript": "^2.1.5"
   }
 }
