@@ -1,19 +1,19 @@
 // @ts-ignore
-module.exports = async ({ options, resolveVariable }) => {
+module.exports = async ({ options }) => {
   const { name: serviceName, stage } = options;
   if (stage === 'local') {
     return {
       provider: {
         name: 'aws',
         apiName: `${serviceName}-${stage}`,
-        runtime: 'nodejs16.x',
+        runtime: 'nodejs18.x',
         stage,
         region: 'ap-northeast-2',
         timeout: 15,
         memorySize: '256',
         versionFunctions: false,
         iam: {
-          role: 'rolerole',
+          role: 'This is IAM Role ARN',
         },
       },
       environment: {
@@ -25,7 +25,7 @@ module.exports = async ({ options, resolveVariable }) => {
         MYSQL_READ_PORT: 3306,
         MYSQL_DATABASE: 'DATABASE',
         MYSQL_USERNAME: 'USERNAME',
-        MYSQL_PASSWORD: 'PASSWORD'
+        MYSQL_PASSWORD: 'PASSWORD',
       },
     };
   } else if (stage === 'dev') {
@@ -37,4 +37,4 @@ module.exports = async ({ options, resolveVariable }) => {
   } else {
     throw new Error('Wrong stage!');
   }
-}
+};
