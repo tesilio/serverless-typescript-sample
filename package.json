@@ -32,5 +32,8 @@
     "serverless-plugin-typescript": "^2.1.5",
     "sinon": "^15.2.0",
     "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "sequelize-typescript": "^2.1.5"
   }
 }
