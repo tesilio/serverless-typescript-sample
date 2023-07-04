@@ -6,7 +6,7 @@ plugins:
   - serverless-offline
   - serverless-plugin-typescript
 
-custom: ${file(./config.js)}
+custom: ${file(./config/config.js)}
 
 # 제공자
 provider: ${self:custom.provider}
