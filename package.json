@@ -11,17 +11,26 @@
   },
   "devDependencies": {
     "@aws-sdk/types": "^3.357.0",
+    "@types/chai": "^4.3.5",
+    "@types/faker": "^6.6.9",
+    "@types/mocha": "^10.0.1",
+    "@types/node": "18.16.1",
+    "@types/sinon": "^10.0.15",
     "@typescript-eslint/eslint-plugin": "^5.61.0",
     "@typescript-eslint/parser": "^5.61.0",
+    "chai": "^4.3.7",
     "eslint": "^8.44.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-prettier": "^4.2.1",
+    "faker": "^6.6.6",
+    "mocha": "^10.2.0",
     "prettier": "^2.8.8",
     "serverless": "^3.33.0",
     "serverless-offline": "^12.0.4",
     "serverless-plugin-typescript": "^2.1.5",
+    "sinon": "^15.2.0",
     "typescript": "^5.1.6"
   }
 }
