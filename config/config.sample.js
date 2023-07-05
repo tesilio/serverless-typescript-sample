@@ -15,17 +15,17 @@ module.exports = async ({ options }) => {
         iam: {
           role: 'This is IAM Role ARN',
         },
-      },
-      environment: {
-        STAGE: 'local',
-        REGION: 'ap-northeast-2',
-        MYSQL_WRITE_HOST: 'localhost',
-        MYSQL_WRITE_PORT: 3306,
-        MYSQL_READ_HOST: 'localhost',
-        MYSQL_READ_PORT: 3306,
-        MYSQL_DATABASE: 'DATABASE',
-        MYSQL_USERNAME: 'USERNAME',
-        MYSQL_PASSWORD: 'PASSWORD',
+        environment: {
+          STAGE: 'local',
+          REGION: 'ap-northeast-2',
+          MYSQL_WRITE_HOST: 'localhost',
+          MYSQL_WRITE_PORT: 3306,
+          MYSQL_READ_HOST: 'localhost',
+          MYSQL_READ_PORT: 3306,
+          MYSQL_DATABASE: 'DATABASE',
+          MYSQL_USERNAME: 'USERNAME',
+          MYSQL_PASSWORD: 'PASSWORD',
+        },
       },
     };
   } else if (stage === 'dev') {
