@@ -7,7 +7,8 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "sls": "serverless"
+    "sls": "serverless",
+    "offline": "sls offline -s local"
   },
   "devDependencies": {
     "@aws-sdk/types": "^3.357.0",

@@ -94,7 +94,8 @@ export class SequelizeClient {
     this._isInUse = true;
     this.sequelize.connectionManager.initPools();
     if (Object.hasOwn(this.sequelize.connectionManager, 'getConnection')) {
-      this.sequelize.connectionManager.getConnection = undefined as any;
+      // @ts-ignore
+      delete this.sequelize.connectionManager.getConnection;
     }
   }
 

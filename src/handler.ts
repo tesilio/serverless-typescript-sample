@@ -8,7 +8,6 @@ import { SequelizeClient } from '../config/sequelize-client';
 export async function hello(event: any) {
   const sequelizeClient = SequelizeClient.getInstance();
   sequelizeClient.initPools();
-  console.log(sequelizeClient);
   await sequelizeClient.sequelize.authenticate();
   await sequelizeClient.close();
   return {
