@@ -1,4 +1,3 @@
-import * as path from 'path';
 import { Sequelize, SequelizeOptions } from 'sequelize-typescript';
 import * as _ from 'lodash';
 import ENV from './env';
@@ -51,7 +50,7 @@ export class SequelizeClient {
         idle: 0,
         acquire: 3000,
       },
-      models: [path.join(__dirname, '../', 'src/model/mysql/')],
+      models: [`${__dirname}/src/**/*.model{.ts,.js}`],
     };
 
     if (_.isEmpty(this._sequelize)) {
@@ -78,7 +77,7 @@ export class SequelizeClient {
     const remainingLifeMilliseconds = remainingLifeSeconds * 1000;
     const deadLine = now - remainingLifeMilliseconds;
 
-    // case: 5분이 초과되면 새로운 인스턴스를 반환!
+    // case: 5분 초과 시, 새 인스턴스 반환
     if (SequelizeClient.createdAt < deadLine) {
       delete SequelizeClient.sequelizeClient;
       SequelizeClient.sequelizeClient = new SequelizeClient(options);
