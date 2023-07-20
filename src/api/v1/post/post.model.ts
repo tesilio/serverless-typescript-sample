@@ -19,7 +19,7 @@ import {
   paranoid: true,
   comment: '게시글 테이블',
 })
-export default class PostModel extends Model {
+export class PostModel extends Model {
   @Column({
     type: DataType.BIGINT.UNSIGNED,
     primaryKey: true,

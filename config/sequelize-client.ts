@@ -2,6 +2,7 @@ import { Sequelize, SequelizeOptions } from 'sequelize-typescript';
 import * as _ from 'lodash';
 import ENV from './env';
 import CONSTANTS from './constants';
+import { PostModel } from '../src/api/v1/post/post.model';
 
 type SequelizeClientOptions = SequelizeOptions & {
   host?: string;
@@ -22,7 +23,7 @@ export class SequelizeClient {
 
   private static createdAt: number;
 
-  private readonly options: SequelizeClientOptions;
+  private readonly _options: SequelizeClientOptions;
 
   private readonly _sequelize: any;
 
@@ -32,7 +33,7 @@ export class SequelizeClient {
    * @private
    */
   private constructor(options?: SequelizeClientOptions) {
-    this.options = {
+    this._options = {
       host: _.get(options, 'host', ENV.mysqlWriteHost),
       port: _.get(options, 'port', Number(ENV.mysqlWritePort)),
       database: _.get(options, 'database', ENV.mysqlDatabase),
@@ -50,11 +51,11 @@ export class SequelizeClient {
         idle: 0,
         acquire: 3000,
       },
-      models: [`${__dirname}/src/**/*.model{.ts,.js}`],
+      models: [PostModel],
     };
 
     if (_.isEmpty(this._sequelize)) {
-      this._sequelize = new Sequelize(this.options);
+      this._sequelize = new Sequelize(this._options);
     }
   }
 
