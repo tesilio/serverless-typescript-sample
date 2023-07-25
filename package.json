@@ -8,7 +8,8 @@
   "private": true,
   "scripts": {
     "sls": "serverless",
-    "offline": "sls offline -s local"
+    "offline": "sls offline -s local",
+    "test": "mocha -r ts-node/register -R spec ./src/**/*.spec.ts"
   },
   "devDependencies": {
     "@aws-sdk/types": "^3.357.0",
@@ -35,6 +36,7 @@
     "serverless-offline": "^12.0.4",
     "serverless-plugin-typescript": "^2.1.5",
     "sinon": "^15.2.0",
+    "ts-node": "^10.9.1",
     "typescript": "^4.9.5"
   },
   "dependencies": {
