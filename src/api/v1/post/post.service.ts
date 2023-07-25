@@ -8,7 +8,7 @@ export class PostService {
   /**
    * PostModel 생성
    * @param {PostCreateDto} postCreateDto - 생성 요청 DTO
-   * @returns {Promise<PostResponse>}
+   * @returns {Promise<PostResponseDto>}
    */
   async create(postCreateDto: PostCreateDto): Promise<PostResponseDto> {
     const post = await this._createPostUseCase.execute(postCreateDto);

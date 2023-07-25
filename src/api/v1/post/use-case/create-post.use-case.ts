@@ -10,7 +10,7 @@ export class CreatePostUseCase {
    * @private
    */
   private createInSequelize(postCreateDto: PostCreateDto): Promise<PostModel> {
-    const model = PostCreateDto.toModel(postCreateDto);
+    const model = postCreateDto.toModel();
     return PostDao.create(model);
   }
 
@@ -21,7 +21,6 @@ export class CreatePostUseCase {
    * @returns {Promise<PostModel>}
    */
   async execute(postCreateDto: PostCreateDto): Promise<PostModel> {
-    const post = await this.createInSequelize(postCreateDto);
-    return post;
+    return this.createInSequelize(postCreateDto);
   }
 }

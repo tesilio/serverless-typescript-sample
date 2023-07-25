@@ -16,11 +16,10 @@ export class PostCreateDto {
    * DTO to Model
    * @returns {PostModel}
    */
-  static toModel(postCreateDto: PostCreateDto): PostModel {
-    const { title, contents } = postCreateDto;
+  toModel(): PostModel {
     return PostModel.build({
-      title,
-      contents,
+      title: this.title,
+      contents: this.contents,
     });
   }
 }
