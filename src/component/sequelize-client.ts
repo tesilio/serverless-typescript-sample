@@ -1,8 +1,8 @@
 import { Sequelize, SequelizeOptions } from 'sequelize-typescript';
 import * as _ from 'lodash';
-import ENV from './env';
-import CONSTANTS from './constants';
-import { PostModel } from '../src/api/v1/post/post.model';
+import ENV from '../../config/env';
+import CONSTANTS from '../../config/constants';
+import { PostModel } from '../api/v1/post/post.model';
 
 type SequelizeClientOptions = SequelizeOptions & {
   host?: string;

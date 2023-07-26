@@ -1,4 +1,4 @@
-import { SequelizeClient } from '../config/sequelize-client';
+import { SequelizeClient } from './component/sequelize-client';
 
 /**
  *

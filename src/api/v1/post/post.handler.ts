@@ -1,5 +1,5 @@
 import { APIGatewayProxyEvent } from 'aws-lambda';
-import { SequelizeClient } from '../../../../config/sequelize-client';
+import { SequelizeClient } from '../../../component/sequelize-client';
 import { PostController } from './post.controller';
 import { PostCreateDto } from './dto/post-create.dto';
 import { UtilityComponent } from '../../../component/utility.component';
