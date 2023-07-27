@@ -8,7 +8,7 @@
       "es2022"
     ],
     "allowJs": false,
-    "checkJs": true,
+    "checkJs": false,
     "declaration": true,
     "rootDir": "./",
     "removeComments": true,
@@ -23,6 +23,7 @@
     "noUnusedParameters": true,
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
-    "sourceMap": true
+    "sourceMap": true,
+    "esModuleInterop": true,
   }
 }
