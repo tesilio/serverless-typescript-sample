@@ -24,8 +24,8 @@ functions:
           path: /
           method: get
   v1CreatePost:
-    handler: src/api/v1/post/post.handler.createPostHandler
+    handler: src/api/v1/post/handler.createPostHandler
     events:
       - httpApi:
           path: /v1/posts
-          method: post
+          method: any

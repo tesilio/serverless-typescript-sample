@@ -1,4 +1,4 @@
-import { Exclude, Expose } from 'class-transformer';
+import { Exclude, Expose, instanceToPlain } from 'class-transformer';
 import { PostModel } from '../post.model';
 
 @Exclude()
@@ -44,5 +44,13 @@ export class PostResponseDto {
   @Expose()
   get contents(): string {
     return this._contents;
+  }
+
+  /**
+   * 응답 객체로 변환
+   * @returns {Record<string, any>}
+   */
+  toPlain(): Record<string, any> {
+    return instanceToPlain(this);
   }
 }

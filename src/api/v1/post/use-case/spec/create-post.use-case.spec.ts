@@ -5,9 +5,11 @@ import { PostCreateDto } from '../../dto/post-create.dto';
 import { PostModel } from '../../post.model';
 import { PostDao } from '../../post.dao';
 
-const dummyPostCreateDto = new PostCreateDto();
-dummyPostCreateDto.title = '제목';
-dummyPostCreateDto.contents = '내용';
+const dummyRequestData = {
+  title: '제목',
+  contents: '내용',
+};
+const dummyPostCreateDto = new PostCreateDto(dummyRequestData);
 
 const postModel = {
   id: 1,
@@ -32,15 +34,13 @@ describe('CreatePostUseCase 테스트', () => {
   });
 
   describe('execute 테스트', () => {
-    describe('성공', () => {
-      it('정상적으로 Post가 생성되어 반환된다.', async () => {
-        sandbox.stub(PostDao, 'create').resolves(postModel);
-        sandbox.stub(dummyPostCreateDto, 'toModel').resolves(postModel);
+    it('정상적으로 Post가 생성되어 반환된다.', async () => {
+      sandbox.stub(PostDao, 'create').resolves(postModel);
+      sandbox.stub(dummyPostCreateDto, 'toModel').resolves(postModel);
 
-        const result = await createPostUseCase.execute(dummyPostCreateDto);
+      const result = await createPostUseCase.execute(dummyPostCreateDto);
 
-        expect(result).deep.equal(postModel);
-      });
+      expect(result).deep.equal(postModel);
     });
   });
 });

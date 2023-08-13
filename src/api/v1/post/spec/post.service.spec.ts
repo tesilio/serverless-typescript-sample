@@ -7,9 +7,11 @@ import { PostModel } from '../post.model';
 import { PostResponseDto } from '../dto/post-response.dto';
 import { PostDao } from '../post.dao';
 
-const dummyPostCreateDto = new PostCreateDto();
-dummyPostCreateDto.title = '제목';
-dummyPostCreateDto.contents = '내용';
+const dummyRequestData = {
+  title: '제목',
+  contents: '내용',
+};
+const dummyPostCreateDto = new PostCreateDto(dummyRequestData);
 
 const postModel = {
   id: 1,

@@ -5,7 +5,6 @@ import { PostController } from './post.controller';
 import { PostCreateDto } from './dto/post-create.dto';
 import { UtilityComponent } from '../../../component/utility.component';
 import { SequelizeClient } from '../../../component/sequelize-client';
-import { instanceToPlain } from 'class-transformer';
 
 /**
  *
@@ -16,15 +15,12 @@ const createPost = async (event: APIGatewayProxyEvent): Promise<APIGatewayProxyR
   const sequelizeClient = SequelizeClient.getInstance();
   sequelizeClient.initPools();
   const parsedBody = UtilityComponent.eventBodyParser(event.body) as any;
-  const postCreateDto = new PostCreateDto();
-  postCreateDto.title = parsedBody?.title || '젬옥';
-  postCreateDto.contents = parsedBody?.title || '냉무';
-  const postResponseDto = await PostController.create(postCreateDto);
-  const body = instanceToPlain(postResponseDto);
+  const postCreateDto = new PostCreateDto(parsedBody);
+  const responseBody = await PostController.create(postCreateDto);
   await sequelizeClient.close();
   return {
     statusCode: 200,
-    body: body as any,
+    body: JSON.stringify(responseBody),
   };
 };
 
