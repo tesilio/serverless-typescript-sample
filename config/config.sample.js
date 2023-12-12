@@ -6,7 +6,7 @@ module.exports = async ({ options }) => {
       provider: {
         name: 'aws',
         apiName: `${serviceName}-${stage}`,
-        runtime: 'nodejs18.x',
+        runtime: 'nodejs20.x',
         stage,
         region: 'ap-northeast-2',
         timeout: 15,
