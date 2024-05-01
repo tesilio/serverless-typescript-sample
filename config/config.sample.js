@@ -7,6 +7,7 @@ module.exports = async ({ options }) => {
         name: 'aws',
         apiName: `${serviceName}-${stage}`,
         runtime: 'nodejs20.x',
+        architecture: 'arm64',
         stage,
         region: 'ap-northeast-2',
         timeout: 15,
