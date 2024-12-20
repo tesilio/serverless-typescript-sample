@@ -1580,10 +1580,10 @@
   dependencies:
     tslib "^2.5.0"
 
-"@aws-sdk/types@^3.709.0":
-  version "3.709.0"
-  resolved "https://registry.yarnpkg.com/@aws-sdk/types/-/types-3.709.0.tgz#f8d7ab07e253d3ed0e3b360e09fc67c7430a73b9"
-  integrity sha512-ArtLTMxgjf13Kfu3gWH3Ez9Q5TkDdcRZUofpKH3pMGB/C6KAbeSCtIIDKfoRTUABzyGlPyCrZdnFjKyH+ypIpg==
+"@aws-sdk/types@^3.714.0":
+  version "3.714.0"
+  resolved "https://registry.yarnpkg.com/@aws-sdk/types/-/types-3.714.0.tgz#de6afee1436d2d95364efa0663887f3bf0b1303a"
+  integrity sha512-ZjpP2gYbSFlxxaUDa1Il5AVvfggvUPbjzzB/l3q0gIE5Thd6xKW+yzEpt2mLZ5s5UaYSABZbF94g8NUOF4CVGA==
   dependencies:
     "@smithy/types" "^3.7.2"
     tslib "^2.6.2"
@@ -8089,10 +8089,10 @@ serverless-plugin-typescript@^2.1.5:
     globby "^10.0.2"
     lodash "^4.17.21"
 
-serverless@^3.39.0:
-  version "3.39.0"
-  resolved "https://registry.yarnpkg.com/serverless/-/serverless-3.39.0.tgz#699fbea4d0b0ba0baba0510be743f9d025ac363d"
-  integrity sha512-FHI3fhe4TRS8+ez/KA7HmO3lt3fAynO+N1pCCzYRThMWG0J8RWCI0BI+K0mw9+sEV+QpBCpZRZbuGyUaTsaQew==
+serverless@^3.40.0:
+  version "3.40.0"
+  resolved "https://registry.yarnpkg.com/serverless/-/serverless-3.40.0.tgz#bf0e15caae556497d6a97afdc4b2e0ee84c43043"
+  integrity sha512-6vUSIUqBkhZeIpFz0howqKlT1BNjYxOrucvvSICKCEsxVS9MbTJokGkykDrpr/k4Io3WI8tcvrf25+U5Ynf3lw==
   dependencies:
     "@aws-sdk/client-api-gateway" "^3.588.0"
     "@aws-sdk/client-cognito-identity-provider" "^3.588.0"
