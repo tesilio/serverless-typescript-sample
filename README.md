@@ -1,5 +1,7 @@
 # Serverless Typescript Sample
 
+This is a sample project to demonstrate how to use serverless framework with typescript.
+
 ---
 
 ## Install
