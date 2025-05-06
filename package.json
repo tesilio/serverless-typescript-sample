@@ -18,7 +18,7 @@
     "@types/faker": "^6.6.11",
     "@types/lodash": "^4.17.16",
     "@types/mocha": "^10.0.10",
-    "@types/node": "^22.15.3",
+    "@types/node": "^22.15.12",
     "@types/sinon": "^10.0.20",
     "@types/validator": "^13.15.0",
     "@typescript-eslint/eslint-plugin": "^5.62.0",
