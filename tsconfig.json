@@ -11,6 +11,7 @@
     "checkJs": false,
     "declaration": true,
     "rootDir": "./",
+    "outDir": "./.build",
     "removeComments": true,
     "strict": true,
     "noImplicitAny": true,
@@ -25,5 +26,7 @@
     "noFallthroughCasesInSwitch": true,
     "sourceMap": true,
     "esModuleInterop": true,
+    "skipLibCheck": true,
+    "types": ["node", "mocha", "chai"]
   }
 }
