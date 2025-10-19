@@ -857,12 +857,12 @@
     "@smithy/types" "^4.3.1"
     tslib "^2.6.2"
 
-"@aws-sdk/types@^3.901.0":
-  version "3.901.0"
-  resolved "https://registry.yarnpkg.com/@aws-sdk/types/-/types-3.901.0.tgz#b5a2e26c7b3fb3bbfe4c7fc24873646992a1c56c"
-  integrity sha512-FfEM25hLEs4LoXsLXQ/q6X6L4JmKkKkbVFpKD4mwfVHtRVQG6QxJiCPcrkcPISquiy6esbwK2eh64TWbiD60cg==
+"@aws-sdk/types@^3.910.0":
+  version "3.910.0"
+  resolved "https://registry.yarnpkg.com/@aws-sdk/types/-/types-3.910.0.tgz#1707a9f5d36d828789173fcd5622a5684cf67b2f"
+  integrity sha512-o67gL3vjf4nhfmuSUNNkit0d62QJEwwHLxucwVJkR/rw9mfUtAWsgBs8Tp16cdUbMgsyQtCQilL8RAJDoGtadQ==
   dependencies:
-    "@smithy/types" "^4.6.0"
+    "@smithy/types" "^4.7.1"
     tslib "^2.6.2"
 
 "@aws-sdk/util-arn-parser@3.804.0":
@@ -1937,10 +1937,10 @@
   dependencies:
     tslib "^2.6.2"
 
-"@smithy/types@^4.6.0":
-  version "4.6.0"
-  resolved "https://registry.yarnpkg.com/@smithy/types/-/types-4.6.0.tgz#8ea8b15fedee3cdc555e8f947ce35fb1e973bb7a"
-  integrity sha512-4lI9C8NzRPOv66FaY1LL1O/0v0aLVrq/mXP/keUa9mJOApEeae43LsLd2kZRUJw91gxOQfLIrV3OvqPgWz1YsA==
+"@smithy/types@^4.7.1":
+  version "4.8.0"
+  resolved "https://registry.yarnpkg.com/@smithy/types/-/types-4.8.0.tgz#e6f65e712478910b74747081e6046e68159f767d"
+  integrity sha512-QpELEHLO8SsQVtqP+MkEgCYTFW0pleGozfs3cZ183ZBj9z3VC1CX1/wtFMK64p+5bhtZo41SeLK1rBRtd25nHQ==
   dependencies:
     tslib "^2.6.2"
 
@@ -2134,10 +2134,10 @@
   resolved "https://registry.yarnpkg.com/@tsconfig/node16/-/node16-1.0.4.tgz#0b92dcc0cc1c81f6f306a381f28e31b1a56536e9"
   integrity sha512-vxhUy4J8lyeyinH7Azl1pdd43GJhZH/tP2weN8TntQblOY+A0XbT8DJk1/oCPuOOyg/Ja757rG0CgHcWC8OfMA==
 
-"@types/aws-lambda@^8.10.155":
-  version "8.10.155"
-  resolved "https://registry.yarnpkg.com/@types/aws-lambda/-/aws-lambda-8.10.155.tgz#e5ad5a52dc6b3166722d6c23cdcb197b73d5c897"
-  integrity sha512-wd1XgoL0gy/ybo7WozUKQBd+IOgUkdfG6uUGI0fQOTEq06FBFdO7tmPDSxgjkFkl8GlfApvk5TvqZlAl0g+Lbg==
+"@types/aws-lambda@^8.10.156":
+  version "8.10.156"
+  resolved "https://registry.yarnpkg.com/@types/aws-lambda/-/aws-lambda-8.10.156.tgz#ea7cd65806d441fcf4afce1738fe786d4bdafb8d"
+  integrity sha512-LElQP+QliVWykC7OF8dNr04z++HJCMO2lF7k9HuKoSDARqhcjHq8MzbrRwujCSDeBHIlvaimbuY/tVZL36KXFQ==
 
 "@types/cacheable-request@^6.0.1":
   version "6.0.3"
@@ -2227,10 +2227,10 @@
   dependencies:
     undici-types "~7.8.0"
 
-"@types/node@^22.18.9":
-  version "22.18.9"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-22.18.9.tgz#5c55a22de88d7bbbb8e1e5f041fa0293b5beae82"
-  integrity sha512-5yBtK0k/q8PjkMXbTfeIEP/XVYnz1R9qZJ3yUicdEW7ppdDJfe+MqXEhpqDL3mtn4Wvs1u0KLEG0RXzCgNpsSg==
+"@types/node@^22.18.11":
+  version "22.18.11"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-22.18.11.tgz#aa8a8ccae8cc828512df642f0d82606b89450d71"
+  integrity sha512-Gd33J2XIrXurb+eT2ktze3rJAfAp9ZNjlBdh4SVgyrKEOADwCbdUDaK7QgJno8Ue4kcajscsKqu6n8OBG3hhCQ==
   dependencies:
     undici-types "~6.21.0"
 
