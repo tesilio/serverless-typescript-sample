@@ -857,12 +857,12 @@
     "@smithy/types" "^4.3.1"
     tslib "^2.6.2"
 
-"@aws-sdk/types@^3.910.0":
-  version "3.910.0"
-  resolved "https://registry.yarnpkg.com/@aws-sdk/types/-/types-3.910.0.tgz#1707a9f5d36d828789173fcd5622a5684cf67b2f"
-  integrity sha512-o67gL3vjf4nhfmuSUNNkit0d62QJEwwHLxucwVJkR/rw9mfUtAWsgBs8Tp16cdUbMgsyQtCQilL8RAJDoGtadQ==
+"@aws-sdk/types@^3.914.0":
+  version "3.914.0"
+  resolved "https://registry.yarnpkg.com/@aws-sdk/types/-/types-3.914.0.tgz#175cf9a4b2267aafbb110fe1316e6827de951fdb"
+  integrity sha512-kQWPsRDmom4yvAfyG6L1lMmlwnTzm1XwMHOU+G5IFlsP4YEaMtXidDzW/wiivY0QFrhfCz/4TVmu0a2aPU57ug==
   dependencies:
-    "@smithy/types" "^4.7.1"
+    "@smithy/types" "^4.8.0"
     tslib "^2.6.2"
 
 "@aws-sdk/util-arn-parser@3.804.0":
@@ -1937,7 +1937,7 @@
   dependencies:
     tslib "^2.6.2"
 
-"@smithy/types@^4.7.1":
+"@smithy/types@^4.8.0":
   version "4.8.0"
   resolved "https://registry.yarnpkg.com/@smithy/types/-/types-4.8.0.tgz#e6f65e712478910b74747081e6046e68159f767d"
   integrity sha512-QpELEHLO8SsQVtqP+MkEgCYTFW0pleGozfs3cZ183ZBj9z3VC1CX1/wtFMK64p+5bhtZo41SeLK1rBRtd25nHQ==
@@ -2227,10 +2227,10 @@
   dependencies:
     undici-types "~7.8.0"
 
-"@types/node@^22.18.11":
-  version "22.18.11"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-22.18.11.tgz#aa8a8ccae8cc828512df642f0d82606b89450d71"
-  integrity sha512-Gd33J2XIrXurb+eT2ktze3rJAfAp9ZNjlBdh4SVgyrKEOADwCbdUDaK7QgJno8Ue4kcajscsKqu6n8OBG3hhCQ==
+"@types/node@^22.18.12":
+  version "22.18.12"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-22.18.12.tgz#e165d87bc25d7bf6d3657035c914db7485de84fb"
+  integrity sha512-BICHQ67iqxQGFSzfCFTT7MRQ5XcBjG5aeKh5Ok38UBbPe5fxTyE+aHFxwVrGyr8GNlqFMLKD1D3P2K/1ks8tog==
   dependencies:
     undici-types "~6.21.0"
 
@@ -5495,10 +5495,10 @@ mute-stream@0.0.8:
   resolved "https://registry.yarnpkg.com/mute-stream/-/mute-stream-0.0.8.tgz#1630c42b2251ff81e2a283de96a5497ea92e5e0d"
   integrity sha512-nnbWWOkoWyUsTjKrhgD0dcz22mdkSnpYqbEjIm2nhwhuxlSkpywJmBo8h0ZqJdkp73mb90SssHkN4rsRaBAfAA==
 
-mysql2@^3.15.2:
-  version "3.15.2"
-  resolved "https://registry.yarnpkg.com/mysql2/-/mysql2-3.15.2.tgz#e65e480984d24ca9ba81ea1bc835d35bf153b4ed"
-  integrity sha512-kFm5+jbwR5mC+lo+3Cy46eHiykWSpUtTLOH3GE+AR7GeLq8PgfJcvpMiyVWk9/O53DjQsqm6a3VOOfq7gYWFRg==
+mysql2@^3.15.3:
+  version "3.15.3"
+  resolved "https://registry.yarnpkg.com/mysql2/-/mysql2-3.15.3.tgz#f0348d9c7401bb98cb1f45ffc5a773b109f70808"
+  integrity sha512-FBrGau0IXmuqg4haEZRBfHNWB5mUARw6hNwPDXXGg0XzVJ50mr/9hb267lvpVMnhZ1FON3qNd4Xfcez1rbFwSg==
   dependencies:
     aws-ssl-profiles "^1.1.1"
     denque "^2.1.0"
