@@ -857,12 +857,12 @@
     "@smithy/types" "^4.3.1"
     tslib "^2.6.2"
 
-"@aws-sdk/types@^3.973.6":
-  version "3.973.6"
-  resolved "https://registry.yarnpkg.com/@aws-sdk/types/-/types-3.973.6.tgz#1964a7c01b5cb18befa445998ad1d02f86c5432d"
-  integrity sha512-Atfcy4E++beKtwJHiDln2Nby8W/mam64opFPTiHEqgsthqeydFS1pY+OUlN1ouNOmf8ArPU/6cDS65anOP3KQw==
+"@aws-sdk/types@^3.973.7":
+  version "3.973.7"
+  resolved "https://registry.yarnpkg.com/@aws-sdk/types/-/types-3.973.7.tgz#0dc48b436638d9f19ca52f686912edda2d5d6dee"
+  integrity sha512-reXRwoJ6CfChoqAsBszUYajAF8Z2LRE+CRcKocvFSMpIiLOtYU3aJ9trmn6VVPAzbbY5LXF+FfmUslbXk1SYFg==
   dependencies:
-    "@smithy/types" "^4.13.1"
+    "@smithy/types" "^4.14.0"
     tslib "^2.6.2"
 
 "@aws-sdk/util-arn-parser@3.804.0":
@@ -1930,10 +1930,10 @@
     "@smithy/util-stream" "^4.2.3"
     tslib "^2.6.2"
 
-"@smithy/types@^4.13.1":
-  version "4.13.1"
-  resolved "https://registry.yarnpkg.com/@smithy/types/-/types-4.13.1.tgz#8aaf15bb0f42b4e7c93c87018a3678a06d74691d"
-  integrity sha512-787F3yzE2UiJIQ+wYW1CVg2odHjmaWLGksnKQHUrK/lYZSEcy1msuLVvxaR/sI2/aDe9U+TBuLsXnr3vod1g0g==
+"@smithy/types@^4.14.0":
+  version "4.14.0"
+  resolved "https://registry.yarnpkg.com/@smithy/types/-/types-4.14.0.tgz#72fb6fd315f2eff7d4878142db2d1db4ef94f9bc"
+  integrity sha512-OWgntFLW88kx2qvf/c/67Vno1yuXm/f9M7QFAtVkkO29IJXGBIg0ycEaBTH0kvCtwmvZxRujrgP5a86RvsXJAQ==
   dependencies:
     tslib "^2.6.2"
 
@@ -5505,10 +5505,10 @@ mute-stream@0.0.8:
   resolved "https://registry.yarnpkg.com/mute-stream/-/mute-stream-0.0.8.tgz#1630c42b2251ff81e2a283de96a5497ea92e5e0d"
   integrity sha512-nnbWWOkoWyUsTjKrhgD0dcz22mdkSnpYqbEjIm2nhwhuxlSkpywJmBo8h0ZqJdkp73mb90SssHkN4rsRaBAfAA==
 
-mysql2@^3.20.0:
-  version "3.20.0"
-  resolved "https://registry.yarnpkg.com/mysql2/-/mysql2-3.20.0.tgz#3e9af093cd6930046b0eba02a0533088b6f39ad4"
-  integrity sha512-eCLUs7BNbgA6nf/MZXsaBO1SfGs0LtLVrJD3WeWq+jPLDWkSufTD+aGMwykfUVPdZnblaUK1a8G/P63cl9FkKg==
+mysql2@^3.22.0:
+  version "3.22.0"
+  resolved "https://registry.yarnpkg.com/mysql2/-/mysql2-3.22.0.tgz#1d5df436d1c9603d977596deda610a7f03afabaa"
+  integrity sha512-4jaJYBObj7FhD3lnZhqX1yDMuZN4mQNz+IolDySDXT7fbozMBpeGQNcuWXKUqo4ahkAEfkjUHPjnwuDI0/6VKw==
   dependencies:
     aws-ssl-profiles "^1.1.2"
     denque "^2.1.0"
