@@ -1034,10 +1034,10 @@
     "@smithy/types" "^4.3.1"
     tslib "^2.6.2"
 
-"@aws-sdk/types@^3.973.11":
-  version "3.973.11"
-  resolved "https://registry.yarnpkg.com/@aws-sdk/types/-/types-3.973.11.tgz#40689661e7cca5bc285d44afe946160d5a7767a7"
-  integrity sha512-YjS0qFuECClRh4qhEyW8XagW0fwEPBeZ1cfsW/gU73Kh/ExFILxbzxOfPCmzF/2DwEvhvsHYt0b0qnvStwKYrg==
+"@aws-sdk/types@^3.973.12":
+  version "3.973.12"
+  resolved "https://registry.yarnpkg.com/@aws-sdk/types/-/types-3.973.12.tgz#a3ae50d325644e4e890030d187febbeef2d238ef"
+  integrity sha512-43ajd1NF0RMgX5k0hxCNUyEdrtFUsb2aHT2QvpktSC/2Eyb2Jr/JPVqdp0XIoaHWikZJq5tNWSLO6kB5q2eMCA==
   dependencies:
     "@smithy/types" "^4.14.3"
     tslib "^2.6.2"
@@ -2512,10 +2512,10 @@
   dependencies:
     undici-types "~7.8.0"
 
-"@types/node@^22.19.20":
-  version "22.19.20"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-22.19.20.tgz#243823634b177312895dab14a7fb1d0103094313"
-  integrity sha512-6tELRwSDYWW9EdZhbeZmYGZ1/7Djkt+Ah3/ScEYT9cDord7UJzasR/4D3VONg9tQI5CDp+/CZC1AXj2pCFOvpw==
+"@types/node@^22.19.21":
+  version "22.19.21"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-22.19.21.tgz#5c9d843ea385b31ee937a9f743443830620a32de"
+  integrity sha512-VMeFBSCKQKmm2swI2kW51SFusDqekC6q9trBCvJ/JliDchFSuoYYKN7yVNjPthP1HKZcx3U1gI/wTcEBjEFKTA==
   dependencies:
     undici-types "~6.21.0"
 
@@ -6654,10 +6654,10 @@ serialize-javascript@^6.0.2:
   dependencies:
     randombytes "^2.1.0"
 
-serverless-offline@^14.7.1:
-  version "14.7.1"
-  resolved "https://registry.yarnpkg.com/serverless-offline/-/serverless-offline-14.7.1.tgz#3513d3c1880c9f11720247a5a27b7b20bd0c1777"
-  integrity sha512-bpTX+5tWFODy4bkvhJmugCiv2dPH8i7SkpG/5DAtPZWiuuwFQuAltrMHaGYOF4OolpeD57JftJwfpHt5w1TtKA==
+serverless-offline@^14.7.2:
+  version "14.7.2"
+  resolved "https://registry.yarnpkg.com/serverless-offline/-/serverless-offline-14.7.2.tgz#5022b820b10aa4de24b7f3ad412b046d5e09b3b5"
+  integrity sha512-VSkveRkBojtVkfCHrW19mWZGnpCE78EL6yQK4zyLrdPF9ONVI0yAPdaCGWUt/1+LyN8AE6jEyWf9EUfEYDuPuA==
   dependencies:
     "@aws-sdk/client-lambda" "^3.1052.0"
     "@hapi/boom" "^10.0.1"
