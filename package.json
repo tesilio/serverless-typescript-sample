@@ -13,7 +13,7 @@
     "test": "mocha -r ts-node/register -R spec ./src/**/*.spec.ts"
   },
   "devDependencies": {
-    "@aws-sdk/types": "^3.973.13",
+    "@aws-sdk/types": "^3.973.15",
     "@types/aws-lambda": "^8.10.162",
     "@types/chai": "^4.3.20",
     "@types/faker": "^6.6.11",
